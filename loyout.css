@@ -1,0 +1,23 @@
+.container {
+    width: 90%;
+    margin: 0 5%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1, .col-3, .col-4, .col-6 {
+    padding: 10px;
+}
+.col-1 {
+    width: calc(100%/12);
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.333%;
+}
+.col-6 {
+    width: 50%;
+}

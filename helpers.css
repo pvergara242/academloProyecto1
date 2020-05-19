@@ -1,0 +1,33 @@
+.bg-light {
+    background-color: #f8f8f8;
+}
+.text-center {
+    text-align: center;
+}
+/* Flex */
+.d-flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.bg-green {
+    background-color: green;
+}
+.bg-red{
+    background-color: red;
+}
+.bg-blue {
+    background-color: blue;
+}
+.space-top {
+    margin-top: 30px;
+    position: absolute;
+    top: 420px;
+}
+.space-top-sm {
+    margin-top: 15px;
+}

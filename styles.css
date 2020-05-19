@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Intro section */
+#intro {
+    min-height: 100vh;
+}
+.intro-title {
+    font-size: 60px;
+}
+.intro-subtitle {
+    font-size: 20px;
+}
+
+/* Servicios */
+#services {
+    margin-top: -100px;
+}
+
+.terceraSection{
+    text-align:center;
+    margin-top: 240px;
+  }
+ .quintaSection{
+    text-align:center;
+  }
+  .septimaSection{
+    margin-top: 100px;
+  }
+  .final{
+    background-color: black; 
+    position: relative; 
+   }
+   .about{
+       color: #f8f8f8;
+       position: relative;
+       left: 350px;
+       height: 30px;
+   }
+   .contact{
+     color: #f8f8f8;
+     position: relative;
+     right: -650px;
+     bottom: 20px;
+   }
+   .imagen{
+     color:grey;
+     position: absolute;
+     left: 100px;
+     height: 130px;
+     bottom: -25px;
+   }
+   .logo{
+     color:grey;
+     left: 200px;
+     text-align: center;
+   }
+   .contacto{
+     left: 100px;
+   }
+   
+   .arriba{
+       display: flex;
+       width: 100%;
+       margin-top: 100px;
+      align-items: center;
+   }
+   img{
+       height: 100%;
+   }
+   .img{
+       height: 150px;
+       width: 50%;
+   }
+   .text{
+       width: 50%;
+   } 
+.padding-small{
+    padding:50px;
+  }
+  nav{
+    display:inline-block;
+   
+  }
+
+  nav li{
+    display:inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+  .flex{
+    display:flex;
+    justify-content:space-between;
+     align-items:center; 
+  }
+  .menu{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+  }
+  .logoMenu{
+   display: inline-block;
+  }
+  .imagenes{
+    width: 100%;
+    height: 950px;
+    display: flex;
+    /* flex-flow: column wrap; */
+   flex-direction: column ;
+   flex-wrap: wrap;
+   margin-top: 60px;
+  }
+  .imagen1{
+    margin-top: 20px;
+  }
+  .imagen2{
+    margin-top: 20px;
+  }
+  .imagen3{
+    margin-top: 20px;
+  }
+  .imagen4{
+    margin-top: 20px; 
+  }
+  .imagen5{
+    margin-top: 20px;
+  }
+  .imagen6{
+    margin-top: 20px;
+  }
+  .botton2{
+    padding: 10px 60px;
+    border: solid 1px black;
+  }
+  .mitad{
+    padding: 130px;
+    background-color: #f8f8f8 !important;
+    display: flex;
+     
+  }
+  .card1{
+    padding: 50px;
+    background-color: white;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    box-sizing: border-box;
+    top: 40px;
+    margin: 40px; 
+  }
+  .card2{
+    padding: 50px;
+    background-color: white;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    box-sizing: border-box;
+    top: 40px;
+    margin: 40px; 
+  }
+  .tex{
+    text-align: center;
+  }
+  
