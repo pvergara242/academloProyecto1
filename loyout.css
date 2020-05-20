@@ -16,7 +16,7 @@
     width: 33.333%;
 }
 .col-6 {
-    width: 50%;
+    /* width: 50%; */
 }
 
 @media (min-width: 768px) { 
