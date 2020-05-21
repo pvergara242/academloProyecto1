@@ -6,4 +6,9 @@
     box-sizing: border-box;
     height: 100%;
     border-radius: 10px;
+
+}
+.card:hover{
+    background-color: black !important;
+    color: #ffff;
 }

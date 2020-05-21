@@ -24,7 +24,7 @@
 
 .terceraSection{
     text-align:center;
-    margin-top: 240px;
+    margin-top: 150px;
   }
  .quintaSection{
     text-align:center;
@@ -79,27 +79,27 @@
    }
    .text{
        width: 50%;
+     
    } 
 .padding-small{
     padding:50px;
   }
   nav{
-    display:inline-block;
+    display:block;
    
   }
-
   nav li{
-    display:inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-    
+    display:flex;
+    margin-left: 200px;
+    margin-right: 200px;
+   
   }
   .flex{
     display:flex;
     justify-content:space-between;
      align-items:center; 
   }
-  .menu{
+  /* .menu{
     position: fixed;
     z-index: 100;
     width: 100%;
@@ -107,7 +107,7 @@
     justify-content: space-between;
     background-color: white;
 
-  }
+  } */
   .logoMenu{
    display: inline-block;
   }
@@ -120,6 +120,7 @@
    flex-wrap: wrap;
    margin-top: 60px;
    overflow: scroll;
+   max-width: 100%;
   }
   .imagen1{
     margin-top: 20px;
@@ -177,6 +178,17 @@
   }
   .tex{
     text-align: center;
-    padding: 10px;
+    padding: 80px;
   }
   
+  .submenu{
+    display: flex;
+    display: none;
+   
+  }
+  .menu:hover .submenu{
+    display: flex;
+   
+   
+  }
+ 
