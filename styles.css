@@ -119,6 +119,7 @@
    flex-direction: column ;
    flex-wrap: wrap;
    margin-top: 60px;
+   overflow: scroll;
   }
   .imagen1{
     margin-top: 20px;
